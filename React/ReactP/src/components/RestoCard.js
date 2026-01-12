@@ -1,7 +1,7 @@
 import { RES_IMAGE } from "../utility/constants";
 
 const RestoCard = ({restData}) => {
-  const { name, cloudinaryImageId,avgRating,costForTwo,cuisines,sla} = restData.card.card.info 
+  const { name,cloudinaryImageId,avgRating,costForTwo,cuisines,sla} = restData.card.card.info 
 
   return(
     <div className="card-container">
